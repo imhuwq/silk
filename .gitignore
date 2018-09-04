@@ -1,0 +1,9 @@
+dist
+venv
+.idea
+build
+*.pyc
+htmlcov
+.coverage
+silk.egg-info
+.pytest_cache
