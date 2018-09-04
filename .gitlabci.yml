@@ -2,7 +2,7 @@ stages:
  - test
 
 job run_tests:
-    stage: add_remote
+    stage: test
     tags:
       - python3_unittest
       - Lori
