@@ -7,6 +7,6 @@ job run_tests:
       - python3_unittest
       - Lori
     script:
-      - pip3 install -r requirements.txt --user
+      - pip3 install -r requirements.txt --user --upgrade
       - pytest --cov=silk
     allow_failure: false
