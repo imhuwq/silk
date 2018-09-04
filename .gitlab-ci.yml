@@ -9,4 +9,5 @@ job run_tests:
     script:
       - pip3 install -r requirements.txt --user --upgrade
       - pytest --cov=silk
+    coverage: '/TOTAL.+?(\d+)%/'
     allow_failure: false
